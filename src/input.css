@@ -1,4 +1,7 @@
-@import "tailwindcss/preflight"; /* replaces @tailwind base */
-@import "tailwindcss/utilities"; /* includes all utility classes */
-@plugin "daisyui"; /* DaisyUI plugin */
-@source "./public/*.{html,js}"; /* paths to your files */
+
+@source "./index.html";
+@source "./**/*.{html,js,ts,jsx,tsx}";
+
+@plugin "daisyui";
+
+@import "tailwindcss";
